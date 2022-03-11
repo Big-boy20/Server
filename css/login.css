@@ -1,0 +1,14 @@
+.text{
+    font-size: 15px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+.sign__in{
+    padding: 10px 55px; 
+    
+}
