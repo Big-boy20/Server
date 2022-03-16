@@ -2,16 +2,16 @@
 
 function handleClick() {
     let lg = document.getElementById('login').value;
-    let PS = document.getElementById('password').value;
+    let Ps = document.getElementById('password').value;
     let json =  JSON.stringify({
         "username": lg,
-        "password": PS
+        "password": Ps
     })
     console.log(json)
    
 
-    let xhr = new XMLHttpRequest();
-    xhr.open('POST', "http://localhost:10000/user/login", true);
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', "http://localhost:10000/user/login/");
     xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     
 
